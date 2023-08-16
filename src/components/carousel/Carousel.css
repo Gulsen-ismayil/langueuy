@@ -1,0 +1,30 @@
+.carousel {
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+}
+
+.carousel-inner {
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 6));
+    }
+}
+
+.carousel-inner:hover {
+    animation-play-state: paused;
+}
+
+.slide-image img{
+    width: 550px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}

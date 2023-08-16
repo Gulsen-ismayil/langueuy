@@ -1,0 +1,47 @@
+.navLogo {
+    width: 100px;
+    height: 100px;
+}
+
+.navBackground {
+    position: relative;
+    width: 90%;
+    height: 100px;
+    opacity: 0.7;
+}
+
+.navTitle {
+    position: absolute;
+    top: -1%;
+    left: 30%;
+    background-color: white ;
+    /* color: white;
+    font-weight: bold; */
+    border-radius: 50%/25%;
+    font-size: 35px;
+    padding: 15px;
+    font-family: cursive;
+    word-spacing: 15px;
+}
+
+.navmenu {
+    width: 90%;
+    padding: 2% 0;
+    margin: auto;
+    font-size: 24px;
+}
+.menu-desktop {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navlinktext {
+    color: black;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.navlinktext:hover{
+    color: blue;
+}
+

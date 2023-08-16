@@ -1,0 +1,32 @@
+export const slideShowList = [
+    {
+        id:1,
+        title:'A',
+        picture:'asset/language1.jpeg'
+    },
+    {
+        id:2,
+        title:'B',
+        picture:'asset/language2.jpeg'
+    },
+    {
+        id:3,
+        title:'C',
+        picture:'asset/language3.jpeg'
+    },
+    {
+        id:4,
+        title:'D',
+        picture:'asset/language4.jpeg'
+    },
+    {
+        id:5,
+        title:'E',
+        picture:'asset/language5.jpeg'
+    },
+    {
+        id:6,
+        title:'F',
+        picture:'asset/language6.jpeg'
+    }
+]
