@@ -9,13 +9,15 @@ function Nav() {
     }
     return (
     <div className="navbar">
+        <div className="button">
             <button onClick={() => handleChangeLanguage("en")} >En</button>
             <button onClick={() => handleChangeLanguage("fr")} >Fr</button>
             <button onClick={() => handleChangeLanguage("ur")} >Ur</button>
             <button onClick={() => handleChangeLanguage("ch")} >Ch</button>
+        </div>
         <div className="navHeader">
             <img className='navLogo' src='asset/logoDULC.png' alt="logo" />
-                <img className='navBackground' src="asset/etles.jpeg" alt="" />
+                <img className='navBackground' src="asset/etles.png" alt="" />
             <div className="logoBackgroundText">
                 <p className='navTitle' >{t("header.logo")}</p>
             </div>
